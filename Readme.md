@@ -1,49 +1,28 @@
-# Frontend Assignment
+# Kickstarter Projects Assignment
 
+This project displays a list of projects fetched from an API, showcasing their percentage funded and amount pledged.
+The app includes pagination (5 records per page) with beautiful pleasing UI.
 
-## Assignment
+## Features
 
-You are required to fetch the details of the highly-rated kickstarter projects by implementing an AJAX call to their APIs.
+- Fetches data from the API.
+- Displays data in a table with pagination.
 
-Use the web API (link : https://raw.githubusercontent.com/saaslabsco/frontend-assignment/refs/heads/master/frontend-assignment.json) ) to fetch the details of specific projects.
+## Live Demo
 
-## Minimum Requirements
+[**Click here to view the live project**](https://saaslabsco-assignment.vercel.app/)
 
-1. Create a table and list the following three attributes for all the projects:
-    * S.No.
-    * Percentage funded
-    * Amount pledged
+## How to Run
 
-1. Ensure that the UI is aesthetically pleasing to gain extra points.
-1. Implement pagination with maximum 5 records per page.
+1. Clone the repository: `git clone https://github.com/yashparekh81/saaslabsco-assignment.git`
+2. Go to the project folder: `cd saaslabsco-assignment`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
 
-### Expected Output format
+## Running Tests
 
-| **S.No.** | **Percentage funded** | **Amount pledged** |
-|-----------|-----------------------|--------------------|
-| 0         | 186                   | 15283              |
+Run the following command to execute tests:
 
-
-## Good to have
-
-1. Unit tests.
-1. Accessibility.
-
-
-## Steps for submission
-
-1. Fork this repo.
-1. Do changes to the above assignment.
-1. Email the assignment back to us with:
-    1. Link of the open source repo.
-    1. Link of the assignment hosted online. (You can use any free tools to host this assignment, eg. vercel, netlify or heroku). It should be accessible online for atleast 7 days.
-
-
-## Frameworks Allowed
-1. React/Vanilla JS for JavaScript
-1. No framework for CSS. Only Raw CSS is allowed.
-
-## Note
-
-1. Result on platforms like codesandbox, replit are not accepted. 
-1. Private unaccessible links will lead to rejection.
+```bash
+npm test
+```
